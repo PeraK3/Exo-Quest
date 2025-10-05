@@ -1,0 +1,9 @@
+dash
+pandas
+numpy
+scikit-learn
+plotly
+joblib
+lightkurve
+astropy
+requests
