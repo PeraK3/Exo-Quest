@@ -14,7 +14,7 @@ import os
 # Verify model and CSV files
 model_path = "exoquest_model.pkl"
 le_path = "label_encoder.pkl"
-csv_path = "data/kepler_koi_cumulative.csv"
+csv_path = "kepler_koi_cumulative.csv"
 if not os.path.exists(model_path) or not os.path.exists(le_path):
     print("❌ Error: Model files missing! Run train.py to generate exoquest_model.pkl and label_encoder.pkl.")
     exit(1)
